@@ -22,13 +22,29 @@ Each prompt uses YAML frontmatter for rich metadata and searchability:
 
 ```yaml
 ---
+template_version: "1.0"
+
 name: "Prompt Name"
 id: "001"
 author: "Author Name"
-tags: [ideation, optimization, coding]
+prompt_version: "1.0"
+created: "YYYY-MM-DD"
+updated: "YYYY-MM-DD"
+
+tags:
+  - ideation
+  - optimization
 category: "general"  # general | coding | writing | research | agents | system
-requires_thinking: true
-# ... more fields
+
+description: |
+  What this prompt achieves.
+use_cases:
+  - "Example use case"
+example_input: "What to provide"
+example_output: "What you get"
+
+source_url: ""
+license: "CC0"
 ---
 ```
 
