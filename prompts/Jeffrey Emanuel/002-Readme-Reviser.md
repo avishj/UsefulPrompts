@@ -1,8 +1,10 @@
 ---
+template_version: "1.0"
+
 name: "Readme Reviser"
 id: "002"
 author: "Jeffrey Emanuel"
-version: "1.0"
+prompt_version: "1.0"
 created: "2025-01-16"
 updated: "2025-01-16"
 
@@ -12,13 +14,6 @@ tags:
   - readme
 
 category: "coding"
-
-models:
-  - claude-sonnet
-  - claude-opus
-  - gpt-4
-requires_thinking: true
-context_size: "large"
 
 description: |
   Systematically updates README documentation to reflect recent code changes,

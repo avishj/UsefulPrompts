@@ -1,3 +1,7 @@
+---
+template_version: "1.0"
+---
+
 # {{ Author Name }}
 
 > Brief tagline or description of who they are and what they're known for.

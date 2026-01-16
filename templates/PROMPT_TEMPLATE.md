@@ -1,9 +1,10 @@
 ---
-# Prompt Metadata (YAML Frontmatter)
+template_version: "1.0"
+
 name: "Prompt Name"
 id: "001"  # Sequential ID within author's folder
 author: "Author Name"  # Must match parent folder name
-version: "1.0"
+prompt_version: "1.0"
 created: "YYYY-MM-DD"
 updated: "YYYY-MM-DD"
 
@@ -17,15 +18,6 @@ tags:
   # creative, productivity, agents, system-prompts, personas, etc.
 
 category: "general"  # general | coding | writing | research | agents | system
-
-# Compatibility & Requirements
-models:
-  - claude-sonnet
-  - claude-opus
-  - gpt-4
-  # List models this prompt works well with
-requires_thinking: false  # true if prompt needs extended thinking/reasoning
-context_size: "small"  # small (<2k) | medium (2-8k) | large (8k+)
 
 # Discovery
 description: |

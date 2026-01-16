@@ -1,8 +1,10 @@
 ---
+template_version: "1.0"
+
 name: "Big-Brained Optimizer"
 id: "004"
 author: "Jeffrey Emanuel"
-version: "1.0"
+prompt_version: "1.0"
 created: "2025-01-16"
 updated: "2025-01-16"
 
@@ -14,13 +16,6 @@ tags:
   - analysis
 
 category: "coding"
-
-models:
-  - claude-opus
-  - gpt-4
-  - o1
-requires_thinking: true
-context_size: "large"
 
 description: |
   Deep-dive optimization analysis that finds performance bottlenecks while

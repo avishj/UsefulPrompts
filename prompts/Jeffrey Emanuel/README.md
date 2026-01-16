@@ -1,3 +1,7 @@
+---
+template_version: "1.0"
+---
+
 # Jeffrey Emanuel
 
 > AI researcher and founder known for practical, high-leverage prompts for coding agents.

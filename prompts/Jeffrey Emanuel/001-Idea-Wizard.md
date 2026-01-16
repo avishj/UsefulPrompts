@@ -1,8 +1,10 @@
 ---
+template_version: "1.0"
+
 name: "Idea Wizard"
 id: "001"
 author: "Jeffrey Emanuel"
-version: "1.0"
+prompt_version: "1.0"
 created: "2025-01-16"
 updated: "2025-01-16"
 
@@ -13,13 +15,6 @@ tags:
   - analysis
 
 category: "general"
-
-models:
-  - claude-sonnet
-  - claude-opus
-  - gpt-4
-requires_thinking: true
-context_size: "medium"
 
 description: |
   Generates 30 improvement ideas for a project, then rigorously evaluates

@@ -1,8 +1,10 @@
 ---
+template_version: "1.0"
+
 name: "Robot-Mode Maker"
 id: "003"
 author: "Jeffrey Emanuel"
-version: "1.0"
+prompt_version: "1.0"
 created: "2025-01-16"
 updated: "2025-01-16"
 
@@ -13,13 +15,6 @@ tags:
   - api-design
 
 category: "coding"
-
-models:
-  - claude-sonnet
-  - claude-opus
-  - gpt-4
-requires_thinking: true
-context_size: "large"
 
 description: |
   Creates agent-optimized CLI interfaces that mirror UI functionality
