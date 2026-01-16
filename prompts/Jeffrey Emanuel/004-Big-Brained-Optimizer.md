@@ -1,0 +1,71 @@
+---
+name: "Big-Brained Optimizer"
+id: "004"
+author: "Jeffrey Emanuel"
+version: "1.0"
+created: "2025-01-16"
+updated: "2025-01-16"
+
+tags:
+  - optimization
+  - architecture
+  - performance
+  - algorithms
+  - analysis
+
+category: "coding"
+
+models:
+  - claude-opus
+  - gpt-4
+  - o1
+requires_thinking: true
+context_size: "large"
+
+description: |
+  Deep-dive optimization analysis that finds performance bottlenecks while
+  ensuring functional equivalence. Considers advanced algorithms, data
+  structures, and mathematical techniques like convex optimization and
+  dynamic programming.
+
+use_cases:
+  - "Performance optimization"
+  - "Architecture review"
+  - "Finding algorithmic improvements"
+  - "Identifying technical debt"
+
+example_input: "A codebase with AGENTS.md and README.md"
+example_output: "Detailed analysis of optimization opportunities with proofs of correctness"
+
+source_url: "https://x.com/doodlestein/status/2009835319458242821"
+license: "unknown"
+---
+
+# Big-Brained Optimizer
+
+> Deep optimization analysis with advanced algorithms and provable correctness.
+
+## Prompt
+
+```
+First read ALL of the AGENTS dot md file and README dot md file super carefully and understand ALL of both! Then use your code investigation agent mode to fully understand the code, and technical architecture and purpose of the project. 
+
+Then, once you've done an extremely thorough and meticulous job at all that and deeply understood the entire existing system and what it does, its purpose, and how it is implemented and how all the pieces connect with each other, I need you to hyper-intensively investigate and study and ruminate on these questions as they pertain to this project: 
+
+Are there any other gross inefficiencies in the core system? Places in the codebase where:
+
+1) changes would actually move the needle in terms of overall latency/responsiveness and throughput; 
+
+2) and where our changes would be provably isomorphic in terms of functionality, so that we would know for sure that it wouldn't change the resulting outputs given the same inputs (for approximate numerical methods, you can interpret "the same" as "within epsilon distance"); 
+
+3) where you have clear vision to an obviously better approach in terms of algorithms or data structures (note that for this, you can include in your contemplations lesser-known data structures and more esoteric/sophisticated/mathematical algorithms as well as ways to recast the problem(s) so that another paradigm is exposed, such as convex optimization theory or dynamic programming techniques. 
+
+Also note that if there are well-written third-party libraries you know of that would work well, we can include them in the project). Use ultrathink.
+```
+
+## Usage Notes
+
+- Requires deep codebase understanding first
+- Emphasizes provable correctness (isomorphic functionality)
+- Encourages advanced/esoteric algorithm knowledge
+- Best for mature codebases needing optimization
